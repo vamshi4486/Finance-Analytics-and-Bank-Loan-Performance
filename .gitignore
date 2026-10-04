@@ -1,0 +1,25 @@
+# Temporary and local files
+*.tmp
+*.log
+~$*.xlsx
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Power BI temporary files
+*.pbix.autosave
+
+# Local secrets
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+
+# Editor artifacts
+.vscode/
+.idea/
+__pycache__/
+.ipynb_checkpoints/
